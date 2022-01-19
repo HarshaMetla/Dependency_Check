@@ -1,42 +1,26 @@
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.cloudbus.cloudsim</groupId>
-  <artifactId>cloudsim-package</artifactId>
-  <version>4.0</version>
-  <packaging>pom</packaging>
-  <name>cloudsim-package</name>
-  <description>CloudSim: A Framework For Modeling And Simulation Of Cloud Computing Infrastructures And Services</description>
-  <url>http://www.cloudbus.org/cloudsim/</url>
+<project xmlns="http://maven.apache.org/POM/4.0.0"   
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   
+http://maven.apache.org/xsd/maven-4.0.0.xsd">  
   
-  <properties>
-  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+  <modelVersion>4.0.0</modelVersion>  
   
-  <modules>
-  	<module>modules</module>
-  	<module>documentation</module>
-  	<module>distribution</module>
-  </modules>
+  <groupId>com.javatpoint.application1</groupId>  
+  <artifactId>my-application1</artifactId>  
+  <version>1.0</version>  
+  <packaging>jar</packaging>  
   
-  <organization>
-  	<name>The Cloud Computing and Distributed Systems (CLOUDS) Laboratory, The University of Melbourne</name>
-  	<url>http://cloudbus.org/</url>
-  </organization>
-
-        <build>
-            <plugins>
-                <plugin>
-                  <groupId>org.owasp</groupId>
-                  <artifactId>dependency-check-maven</artifactId>
-                  <version>6.5.3</version>
-                  <executions>
-                      <execution>
-                          <goals>
-                              <goal>check</goal>
-                          </goals>
-                      </execution>
-                  </executions>
-                </plugin>
-            </plugins>
-        </build>
-    </project>
+  <name>Maven Quick Start Archetype</name>  
+  <url>http://maven.apache.org</url>  
+  
+  <dependencies>  
+    <dependency>  
+      <groupId>junit</groupId>  
+      <artifactId>junit</artifactId>  
+      <version>4.8.2</version>  
+      <scope>test</scope>  
+    </dependency>  
+  </dependencies>  
+  
+</project>  
+  
