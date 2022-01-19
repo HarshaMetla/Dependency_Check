@@ -1,10 +1,27 @@
-    <project>
-        <modelVersion>4.0.0</modelVersion>
-          <groupId>org.cloudbus.cloudsim</groupId>
-          <artifactId>cloudsim-package</artifactId>
-          <version>4.0</version>
-          <packaging>pom</packaging>
-          <name>cloudsim-package</name>
+   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.cloudbus.cloudsim</groupId>
+  <artifactId>cloudsim-package</artifactId>
+  <version>4.0</version>
+  <packaging>pom</packaging>
+  <name>cloudsim-package</name>
+  <description>CloudSim: A Framework For Modeling And Simulation Of Cloud Computing Infrastructures And Services</description>
+  <url>http://www.cloudbus.org/cloudsim/</url>
+  
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <modules>
+  	<module>modules</module>
+  	<module>documentation</module>
+  	<module>distribution</module>
+  </modules>
+  
+  <organization>
+  	<name>The Cloud Computing and Distributed Systems (CLOUDS) Laboratory, The University of Melbourne</name>
+  	<url>http://cloudbus.org/</url>
+  </organization>
 
         <build>
             <plugins>
