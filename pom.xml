@@ -1,4 +1,11 @@
     <project>
+        <modelVersion>4.0.0</modelVersion>
+          <groupId>org.cloudbus.cloudsim</groupId>
+          <artifactId>cloudsim-package</artifactId>
+          <version>4.0</version>
+          <packaging>pom</packaging>
+          <name>cloudsim-package</name>
+
         <build>
             <plugins>
                 <plugin>
