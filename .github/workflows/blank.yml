@@ -14,8 +14,8 @@ jobs:
         uses: stCarolas/setup-maven@v4.2
         with:
          maven-version: 3.8.2
-      - name: Maen
-        run: mvn clean install
+      - name: Maven
+        run: mvn clean package -f pom.xml
      
       - name: Depcheck
         uses: dependency-check/Dependency-Check_Action@main
